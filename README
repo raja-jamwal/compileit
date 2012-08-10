@@ -1,0 +1,15 @@
+Here’s a tiny little bash script, it may be just a flight of fantasy. This script compiles the files in the specified folder into a executable, and when you run it, it extracts them. Yes, I know it’s practically useless, but great source to learn about partial linking, external variables, embedding binary data into execs etc. Personally I don’t recommend using such tools, since the executable generated would be platform Dependant, no matter what it embeds.
+The scripts compiles the files into object files, compiles its extraction source code, links all the object files into one..Then when it’s executed it, extracts them.. Download it, tweak it and have fun.
+
+There are no dependencies other than bash and standard c++ libraries.
+
+Instruction
+
+    Download the tar ball or zip from git and extract them
+    Run compileit.sh in your terminal, specify the folder you want to compile as parameter
+    This will generate few files(may be 4), the main is executable file
+    You can run “main” file in terminal, this will extract the files
+
+Author
+	Raja Jamwal <linux1@zoho.com>
+
